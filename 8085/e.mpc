@@ -1,0 +1,49 @@
+4000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 LDA 4200h
+\par MOV E A
+\par LDA 4201h
+\par MOV B A
+\par LXI H 0000h
+\par MVI D 00h
+\par NEXT: DAD D
+\par DCR B
+\par JNZ NEXT
+\par SHLD 4202h
+\par HLT
+\par \cf0 
+\par }
+<End Codes>
+20
+1| 4200| 6D
+2| 4201| FE
+3| 4202| 26
+4| 4203| 6C
+<End UserData>
+23
+1| 4000| 3A
+2| 4001| 00
+3| 4002| 42
+4| 4003| 5F
+5| 4004| 3A
+6| 4005| 01
+7| 4006| 42
+8| 4007| 47
+9| 4008| 21
+10| 4009| 00
+11| 400A| 00
+12| 400B| 16
+13| 400C| 00
+14| 400D| 19
+15| 400E| 05
+16| 400F| C2
+17| 4010| 0D
+18| 4011| 40
+19| 4012| 22
+20| 4013| 02
+21| 4014| 42
+22| 4015| 76
+<End HexData>
+
+<End Comment>
